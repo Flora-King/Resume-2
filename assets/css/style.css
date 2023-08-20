@@ -44,9 +44,7 @@ h4 {
     display: inline-block;
 }
 
-
 /*--------------------------------------------Heading*/
-
 header {
     margin: 0;
 }
@@ -133,11 +131,11 @@ header {
 /*--------------------------------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
-    background-color: rgba(0,0,0,0.2);
+    background: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
 
-/*--------------------------------------------footer*/
+/*--------------------------------------------Footer */
 
 footer {
     background-color: #525252;
@@ -157,6 +155,14 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
+.cv-pdf i:hover {
+    color: #e84610;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
 .social-links li a i {
     width: 32px;
     height: 32px;
@@ -171,4 +177,12 @@ footer {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+#footer-details {
+    padding: 20px;
 }
